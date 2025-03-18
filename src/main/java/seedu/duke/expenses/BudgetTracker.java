@@ -1,6 +1,6 @@
-package expenses;
+package seedu.duke.expenses;
 
-import commands.Command;
+import seedu.duke.commands.Command;
 
 public class BudgetTracker {
     private ExpenseList expenseList;

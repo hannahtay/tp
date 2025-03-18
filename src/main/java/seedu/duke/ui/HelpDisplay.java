@@ -1,4 +1,4 @@
-package ui;
+package seedu.duke.ui;
 
 /**
  * Displays concise help information, categorized and with customizable headings.

@@ -1,7 +1,7 @@
-package commands;
-import expenses.Expense;
-import expenses.Ui;
-import expenses.ExpenseList;
+package seedu.duke.commands;
+import seedu.duke.expenses.Expense;
+import seedu.duke.expenses.Ui;
+import seedu.duke.expenses.ExpenseList;
 
 public class AddExpenseCommand extends Command {
     private double amount;

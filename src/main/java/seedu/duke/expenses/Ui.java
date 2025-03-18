@@ -1,4 +1,4 @@
-package expenses;
+package seedu.duke.expenses;
 
 public class Ui {
 

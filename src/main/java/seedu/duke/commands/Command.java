@@ -1,6 +1,6 @@
-package commands;
-import expenses.ExpenseList;
-import expenses.Ui;
+package seedu.duke.commands;
+import seedu.duke.expenses.ExpenseList;
+import seedu.duke.expenses.Ui;
 /**
  * Abstract base class for all commands.
  */

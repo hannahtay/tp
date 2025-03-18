@@ -1,6 +1,6 @@
-package summary;
+package seedu.duke.summary;
 
-import exceptions.BudgetTrackerException;
+import seedu.duke.exceptions.BudgetTrackerException;
 
 /**
  * Represents a financial summary, storing total income, expenses, balance, and savings.

@@ -1,7 +1,7 @@
-package commands;
+package seedu.duke.commands;
 
-import expenses.ExpenseList;
-import expenses.Ui;
+import seedu.duke.expenses.ExpenseList;
+import seedu.duke.expenses.Ui;
 
 public class ExitCommand extends Command {
     @Override

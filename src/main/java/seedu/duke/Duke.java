@@ -1,13 +1,13 @@
 package seedu.duke;
 
-import expenses.Ui;
-import summary.Summary;
-import summary.ui.SummaryDisplay;
-import ui.HelpDisplay;
-import expenses.BudgetTracker;
-import commands.Command;
-import exceptions.BudgetTrackerException;
-import expenses.ExpenseParser;
+import seedu.duke.expenses.Ui;
+import seedu.duke.summary.Summary;
+import seedu.duke.summary.ui.SummaryDisplay;
+import seedu.duke.ui.HelpDisplay;
+import seedu.duke.expenses.BudgetTracker;
+import seedu.duke.commands.Command;
+import seedu.duke.exceptions.BudgetTrackerException;
+import seedu.duke.expenses.ExpenseParser;
 import java.util.Scanner;
 
 public class Duke {

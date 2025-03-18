@@ -1,4 +1,4 @@
-package expenses;
+package seedu.duke.expenses;
 
 import java.util.ArrayList;
 import java.util.List;

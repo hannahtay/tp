@@ -1,10 +1,10 @@
-package expenses;
+package seedu.duke.expenses;
 
-import commands.AddExpenseCommand;
-import commands.DeleteExpenseCommand;
-import commands.ViewExpenseCommand;
-import commands.Command;
-import exceptions.BudgetTrackerException;
+import seedu.duke.commands.AddExpenseCommand;
+import seedu.duke.commands.DeleteExpenseCommand;
+import seedu.duke.commands.ViewExpenseCommand;
+import seedu.duke.commands.Command;
+import seedu.duke.exceptions.BudgetTrackerException;
 
 public class ExpenseParser {
 

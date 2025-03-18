@@ -1,6 +1,6 @@
-package summary.ui;
+package seedu.duke.summary.ui;
 
-import summary.Summary;
+import seedu.duke.summary.Summary;
 
 /**
  * Class responsible for formatting and displaying the summary information.

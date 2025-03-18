@@ -1,7 +1,8 @@
 package summary;
 
-import exceptions.BudgetTrackerException;
+import seedu.duke.exceptions.BudgetTrackerException;
 import org.junit.jupiter.api.Test;
+import seedu.duke.summary.Summary;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
