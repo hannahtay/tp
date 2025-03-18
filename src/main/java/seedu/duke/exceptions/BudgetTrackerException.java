@@ -1,4 +1,4 @@
-package exceptions;
+package seedu.duke.exceptions;
 
 /**
  * Exception thrown when invalid data is encountered in the Budget Tracker application.
