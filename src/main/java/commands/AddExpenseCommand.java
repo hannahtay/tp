@@ -38,13 +38,19 @@ public class AddExpenseCommand extends Command {
     @Override
     public void execute(ExpenseList expenseList, Ui ui) {
         try {
+            // Check if expense exceeds available balance
+            if (summary.getAvailableFunds() < amount) {
+                throw new BudgetTrackerException("Cannot add this expense as it would exceed your available funds. "
+                        + "Available balance: " + summary.getAvailableFunds());
+            }
+
             Expense newExpense = new Expense(amount, description, category);
             expenseList.addExpense(newExpense);
 
             // Update the summary with the new expense
             summary.addExpense(amount);
 
-            ui.showMessage("Added expense: [" + category + "] $" + amount + " from " + description);
+            ui.showMessage("Added expense: [" + category + "] $" + amount + " for " + description);
         } catch (BudgetTrackerException e) {
             ui.showMessage("Error adding expense: " + e.getMessage());
         }

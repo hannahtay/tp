@@ -2,6 +2,7 @@ package expenses;
 
 import java.util.ArrayList;
 import java.util.List;
+import expenses.Ui;
 
 /**
  * Represents a list of expenses with operations to add, delete, and display expenses.
@@ -41,10 +42,14 @@ public class ExpenseList {
         if (expenses.isEmpty()) {
             System.out.println("No expenses recorded.");
         } else {
-            System.out.println("Your Expenses:");
+            StringBuilder expenseMessage = new StringBuilder();
             for (int i = 0; i < expenses.size(); i++) {
-                System.out.println((i + 1) + ". " + expenses.get(i));
+                expenseMessage.append((i + 1)).append(". ").append(expenses.get(i));
+                if (i < expenses.size() - 1) { // Add newline only if it's not the last item
+                    expenseMessage.append("\n");
+                }
             }
+            Ui.showList(expenseMessage.toString()); // Passes only the formatted expenses
         }
     }
 

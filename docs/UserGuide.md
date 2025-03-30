@@ -135,16 +135,17 @@ Added income: $50.00 from salary
 
 Adds a new expense entry to your financial record.
 
-Format: `add expense <AMOUNT> / <DESCRIPTION>`
+Format: `add expense <AMOUNT> / <DESCRIPTION> / <CATEGORY>`
 
 * `<AMOUNT>` must be a positive number.
 * `<DESCRIPTION>` is a description of what the expense was for.
+`<CATEGORY>`
 
 Example of usage:
 
 ```
-> add expense 25 / food
-Added expense: $25.00 for food
+> add expense 25 / food / f
+Added expense: [FOOD] $25.00 for food
 ```
 
 ### Adding to Savings: `add savings`
@@ -191,8 +192,8 @@ Example of usage:
 ```
 > view expense
 ===== EXPENSE ENTRIES =====
-1. $25.00 for food
-2. $50.00 for utilities
+1. [FOOD] $25.00 for food
+2. [BILLS] $50.00 for utilities
 ============================
 ```
 
