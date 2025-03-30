@@ -2,7 +2,6 @@ package expenses;
 
 import java.util.ArrayList;
 import java.util.List;
-import expenses.Ui;
 
 /**
  * Represents a list of expenses with operations to add, delete, and display expenses.
